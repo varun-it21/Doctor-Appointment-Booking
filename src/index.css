@@ -6,11 +6,11 @@
     font-family: Outfit;
 }
 .active hr{
-    @apply block
+    @apply block;
 }
 
 ::-webkit-scrollbar{
-    @apply hidden
+    @apply hidden;
 }
 
 @media (max-width:740px){

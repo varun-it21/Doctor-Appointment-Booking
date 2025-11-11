@@ -1,29 +1,80 @@
-import add_icon from './add_icon.svg'
-import admin_logo from './admin_logo.svg'
-import appointment_icon from './appointment_icon.svg'
-import cancel_icon from './cancel_icon.svg'
-import doctor_icon from './doctor_icon.svg'
-import home_icon from './home_icon.svg'
-import people_icon from './people_icon.svg'
-import upload_area from './upload_area.svg'
-import list_icon from './list_icon.svg'
-import tick_icon from './tick_icon.svg'
-import appointments_icon from './appointments_icon.svg'
-import earning_icon from './earning_icon.svg'
-import patients_icon from './patients_icon.svg'
-import logo from './logo.png'
-import profile_pic from './profile_pic.png'
-import dropdown_icon from './dropdown_icon.svg'
-import group_profiles from './group_profiles.png'
-import arrow_icon from './arrow_icon.svg'
-import header_img from './header_img.png'
-import General_physician from '../assets/general_physician.svg';
+// import add_icon from './add_icon.svg'
+// import admin_logo from './admin_logo.svg'
+// import appointment_icon from './appointment_icon.svg'
+// import cancel_icon from './cancel_icon.svg'
+// import doctor_icon from './doctor_icon.svg'
+// import home_icon from './home_icon.svg'
+// import people_icon from './people_icon.svg'
+// import upload_area from './upload_area.svg'
+// import list_icon from './list_icon.svg'
+// import tick_icon from './tick_icon.svg'
+// import appointments_icon from './appointments_icon.svg'
+// import earning_icon from './earning_icon.svg'
+// import patients_icon from './patients_icon.svg'
+// import logo from './logo.png'
+// import profile_pic from './profile_pic.png'
+// import dropdown_icon from './dropdown_icon.svg'
+// import group_profiles from './group_profiles.png'
+// import arrow_icon from './arrow_icon.svg'
+// import header_img from './header_img.png'
+// import general_physician from '../assets/general_physician.svg';
+// import Gynecologist from '../assets/gynecologist.svg';
+// import Dermatologist from '../assets/dermatologist.svg';
+// import Pediatricians from '../assets/pediatricians.svg';
+// import Neurologist from '../assets/neurologist.svg';
+// import Gastroenterologist from '../assets/gastroenterologist.svg';
+// import doc1 from '../assets/doc1.png'
+// import doc2 from '../assets/doc2.png';
+// import doc3 from '../assets/doc3.png';
+// import doc4 from '../assets/doc4.png';
+// import doc5 from '../assets/doc5.png';
+// import doc6 from '../assets/doc6.png';
+// import doc7 from '../assets/doc7.png';
+// import doc8 from '../assets/doc8.png';
+// import doc9 from '../assets/doc9.png';
+// import doc10 from '../assets/doc10.png';
+// import doc11 from '../assets/doc11.png';
+// import doc12 from '../assets/doc12.png';
+// import doc13 from '../assets/doc13.png';
+// import doc14 from '../assets/doc14.png';
+// import doc15 from '../assets/doc15.png';
+// import appointment_img from '../assets/appointment_img.png';
+// import verified_icon from '../assets/verified_icon.svg';
+// import about_image from '../assets/about_image.png';
+// import contact_image from '../assets/contact_image.png';
+// import menu_icon from '../assets/menu_icon.svg';
+// import cross_icon from '../assets/cross_icon.png';
+// import info_icon from '../assets/info_icon.svg';
+
+
+import add_icon from './add_icon.svg';
+import admin_logo from './admin_logo.svg';
+import appointment_icon from './appointment_icon.svg';
+import cancel_icon from './cancel_icon.svg';
+import doctor_icon from './doctor_icon.svg';
+import home_icon from './home_icon.svg';
+import people_icon from './people_icon.svg';
+import upload_area from './upload_area.svg';
+import list_icon from './list_icon.svg';
+import tick_icon from './tick_icon.svg';
+import appointments_icon from './appointments_icon.svg';
+import earning_icon from './earning_icon.svg';
+import patients_icon from './patients_icon.svg';
+import logo from './logo.png';
+import profile_pic from './profile_pic.png';
+import dropdown_icon from './dropdown_icon.svg';
+import group_profiles from './group_profiles.png';
+import arrow_icon from './arrow_icon.svg';
+import header_img from './header_img.png';
+
+import general_physician from '../assets/general_physician.svg';
 import Gynecologist from '../assets/gynecologist.svg';
 import Dermatologist from '../assets/dermatologist.svg';
 import Pediatricians from '../assets/pediatricians.svg';
 import Neurologist from '../assets/neurologist.svg';
 import Gastroenterologist from '../assets/gastroenterologist.svg';
-import doc1 from '../assets/doc1.png'
+
+import doc1 from '../assets/doc1.png';
 import doc2 from '../assets/doc2.png';
 import doc3 from '../assets/doc3.png';
 import doc4 from '../assets/doc4.png';
@@ -38,6 +89,7 @@ import doc12 from '../assets/doc12.png';
 import doc13 from '../assets/doc13.png';
 import doc14 from '../assets/doc14.png';
 import doc15 from '../assets/doc15.png';
+
 import appointment_img from '../assets/appointment_img.png';
 import verified_icon from '../assets/verified_icon.svg';
 import info_icon from '../assets/info_icon.svg';
@@ -46,79 +98,63 @@ import contact_image from '../assets/contact_image.png';
 import menu_icon from '../assets/menu_icon.svg';
 import cross_icon from '../assets/cross_icon.png';
 
+
 export const assets = {
-    logo,
-    profile_pic,
-    dropdown_icon,
-    group_profiles,
-    arrow_icon,
-    header_img,
-    add_icon,
-    admin_logo,
-    appointment_icon,
-    cancel_icon,
-    doctor_icon,
-    upload_area,
-    home_icon,
-    patients_icon,
-    people_icon,
-    list_icon,
-    tick_icon,
-    appointments_icon,
-    logo,
-    earning_icon,
-    doc1,
-    doc2,
-    doc3,
-    doc4,
-    doc5,
-    doc6,
-    doc7,
-    doc8,
-    doc9,
-    doc10,
-    doc11,
-    doc12,
-    doc13,
-    doc14,
-    doc15,
-    appointment_img,
-    verified_icon,
-    info_icon,
-    about_image,
-    contact_image,
-    menu_icon,
-    cross_icon
+     // Icons
+  add_icon,
+  admin_logo,
+  appointment_icon,
+  cancel_icon,
+  doctor_icon,
+  home_icon,
+  people_icon,
+  upload_area,
+  list_icon,
+  tick_icon,
+  appointments_icon,
+  earning_icon,
+  patients_icon,
+  menu_icon,
+  cross_icon,
+  verified_icon,
+  info_icon,
 
+  // Images
+  logo,
+  profile_pic,
+  dropdown_icon,
+  group_profiles,
+  arrow_icon,
+  header_img,
+  appointment_img,
+  about_image,
+  contact_image,
 
-
+  // Doctor images
+  doc1,
+  doc2,
+  doc3,
+  doc4,
+  doc5,
+  doc6,
+  doc7,
+  doc8,
+  doc9,
+  doc10,
+  doc11,
+  doc12,
+  doc13,
+  doc14,
+  doc15,
 }
 
 export const specialtyData = [
-    {
-        speciality: 'General Physician',
-        image: General_physician, // Ensure the image is imported correctly
-    },
-    {
-        speciality: 'Gynecologist',
-        image: Gynecologist, // Ensure the image is imported correctly
-    },
-    {
-        speciality: 'Dermatologist',
-        image: Dermatologist, // Ensure the image is imported correctly
-    },
-    {
-        speciality: 'Pediatricians',
-        image: Pediatricians, // Ensure the image is imported correctly
-    },
-    {
-        speciality: 'Neurologist',
-        image: Neurologist, // Ensure the image is imported correctly
-    },
-    {
-        speciality: 'Gastroenterologist',
-        image: Gastroenterologist,
-    }
+    { speciality: 'General Physician', image: general_physician },
+  { speciality: 'Gynecologist', image: Gynecologist },
+  { speciality: 'Dermatologist', image: Dermatologist },
+  { speciality: 'Pediatricians', image: Pediatricians },
+  { speciality: 'Neurologist', image: Neurologist },
+  { speciality: 'Gastroenterologist', image: Gastroenterologist },
 ];
 
 export const doctors = [
