@@ -1,14 +1,11 @@
-
 # Project Title
 
 Doctor Appointment Booking System - Frontend
 
-
-
-
 ## Description
 
 The Doctor Appointment Booking System (Frontend) is a React-based web application that provides an intuitive interface for users to browse and book appointments with doctors. The frontend is designed with modern UI/UX principles, ensuring a smooth and responsive experience across devices.
+
 ## 🚀 Features
 
 🔹 Built with React.js and Tailwind CSS
@@ -24,6 +21,7 @@ The Doctor Appointment Booking System (Frontend) is a React-based web applicatio
 🔹 Responsive design for all screen sizes
 
 This system simplifies medical appointment scheduling, making healthcare more accessible and convenient. 🚀
+
 ## 🛠️ Tech Stack
 
 🚀 Frontend:
@@ -40,23 +38,32 @@ This system simplifies medical appointment scheduling, making healthcare more ac
 
 🔹React Icons
 
+## 🔗 Live Demo
+
+Check out the live frontend site here: [https://healthhubdoctorappointmentbooking.netlify.app/](https://healthhubdoctorappointmentbooking.netlify.app/)
+Or open the live site: [Live Demo — HealthHub](https://healthhubdoctorappointmentbooking.netlify.app/)
 
 ## ⚡ Installation & Setup
 
 🔹Clone the Repository
 
-git clone https://github.com/varun-it21
-/doctor-appointment.git
-
+```bash
+git clone https://github.com/varun-it21/doctor-appointment.git
 cd doctor-appointment
+```
 
 🔹Install Dependencies
 
+```bash
 npm install
+```
 
 🔹Start the Development Server
 
+```bash
 npm run dev
+```
+
 ## 🎯 Usage
 
 Sign up or log in to the platform.
@@ -66,9 +73,11 @@ Browse available doctors and select an appointment slot.
 Book an appointment and view it in "My Appointments."
 
 Logout when done.
+
 ## 🚀 Deployment
 
 You can deploy the frontend on Vercel/Netlify and backend on Render/Heroku.
+
 ## Screenshots
 
 HOME PAGE :
@@ -95,3 +104,12 @@ MY APPOINTMENT PAGE :
 
 MY PROFILE :
 ![Screenshot 2025-03-06 155918](https://github.com/user-attachments/assets/13603f9a-7661-40ad-a7bd-9762930f695e)
+
+## 🎯 Quick Notes
+
+* Make sure the backend API endpoint URLs in the frontend `.env` are set correctly before building for production.
+* For deployment on Netlify, set the build command to `npm run build` and the publish directory to `build` (or `dist` if using another bundler).
+
+---
+
+If you want me to also add a "Visit Live Site" button to the project README or a short badge (shields.io) that links to the live demo, I can add that next.
